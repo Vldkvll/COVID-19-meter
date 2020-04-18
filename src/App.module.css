@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+  background-color: rgb(190, 182, 163);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.logo {
+  width: 350px;
+  margin-top: 50px;
+}
+
+@media (max-width: 770px) {
+  .container{
+    margin: 0 5%;
+  }
+  .logo {
+    width: 100%;
+  }
+}
